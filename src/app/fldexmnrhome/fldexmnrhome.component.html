@@ -1,0 +1,119 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="logo navbar-brand" href="#">
+      <strong class="logo-style">TN</strong>
+    </a>
+    <span class="header-text"> Welcome to tennesse departments of financial institutions </span>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <span>Admin</span>&nbsp;&nbsp;
+      <button class="btn btn-outline-blue my-2 my-sm-0" type="button" (click)="gotoLogin()">Logout</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container d-flex justify-content-center">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="display-4">Field examiner home page</h1>
+    </div>
+    <div class="col-lg-12">
+      <p class="lead">You can search for an examiner based on name, city, zip code, or certifications.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="First Name">
+      </mat-form-field>
+    </div>
+    <div class="col-lg-4">
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Last Name">
+      </mat-form-field>
+    </div>
+    <div class="col-lg-4">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Status">
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="City">
+      </mat-form-field>
+    </div>
+    <div class="col-lg-4">
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Zip Code">
+      </mat-form-field>
+    </div>
+    <div class="col-lg-4">
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Industry">
+      </mat-form-field>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-lg-4">
+      Radius
+    </div>
+    <div class="col-lg-4">
+      <div class="form-check mb-4">
+          <mat-radio-group>
+              <mat-radio-button value="1">90 Miles or Lesser</mat-radio-button>
+              <mat-radio-button value="2">90 Miles or Greater</mat-radio-button>
+            </mat-radio-group>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <button type="button" class="btn btn-success w-50" mdbRippleRadius>Submit</button>
+    </div>
+  </div>
+
+
+  <div class="row text-center pt-3">
+
+    <div class="card col-lg-2 bg-primary text-white" (click)="loadDashBoard()">
+      <img class="img-fluid" src="https://png.icons8.com/cotton/2x/cottage.png" height="100" width="100" alt="Return to home">
+    </div>
+
+    <div class="card col-lg-2 bg-primary text-white">
+      <div class="card-body">
+        <h4 class="card-title">P.E.D</h4>
+      </div>
+    </div>
+
+    <div class="card col-lg-2 bg-primary text-white">
+      <div class="card-body">
+        <h4 class="card-title">Examinations</h4>
+      </div>
+    </div>
+
+    <div class="card col-lg-2 bg-primary text-white">
+      <div class="card-body">
+        <h4 class="card-title">Question Designer</h4>
+      </div>
+    </div>
+    <div class="card col-lg-2 bg-primary text-white">
+      <div class="card-body">
+        <h4 class="card-title">Reports & Letters</h4>
+      </div>
+    </div>
+  </div>

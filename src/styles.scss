@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.logo-style {
+    font-size: 35px;
+    border: 2px;
+    border-radius: 0;
+    background-color: red;
+    color: white !important; 
+    min-height: 80px;
+    min-width: 80px;
+    padding: 16px;
+}
+.header-text{
+    text-transform: capitalize;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.login-modal{
+    border-radius: 5px;
+    border: 2px
+}
+.forgot-pwd {
+    font-weight: bold;
+}
